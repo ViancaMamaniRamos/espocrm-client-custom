@@ -1,0 +1,4 @@
+{
+    "caseAccountStatusReport": "Espo\\Custom\\TemplateHelpers\\CaseAccountStatusReport",
+    "contactsRelationsReport": "Espo\\Custom\\TemplateHelpers\\ContactsRelationsReport"
+}

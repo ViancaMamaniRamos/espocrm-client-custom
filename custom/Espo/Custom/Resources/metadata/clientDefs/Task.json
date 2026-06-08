@@ -1,0 +1,8 @@
+{
+    "relationshipPanels": {
+        "incident": {
+            "layout": null,
+            "selectPrimaryFilterName": null
+        }
+    }
+}

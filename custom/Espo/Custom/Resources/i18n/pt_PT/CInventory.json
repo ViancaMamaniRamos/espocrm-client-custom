@@ -1,0 +1,10 @@
+{
+  "links": {
+    "meetings": "Reuniões",
+    "calls": "Chamadas",
+    "tasks": "Tarefas"
+  },
+  "labels": {
+    "Create CInventory": "Criar Inventario"
+  }
+}

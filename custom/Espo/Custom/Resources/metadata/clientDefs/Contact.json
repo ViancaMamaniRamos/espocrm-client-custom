@@ -1,0 +1,32 @@
+{
+    "relationshipPanels": {
+        "postSales": {
+            "layout": null,
+            "selectPrimaryFilterName": null
+        },
+        "opportunities1": {
+            "layout": null,
+            "selectPrimaryFilterName": null
+        },
+        "cPostSales": {
+            "layout": null,
+            "selectPrimaryFilterName": null
+        },
+        "incidenteses": {
+            "layout": null,
+            "selectPrimaryFilterName": null
+        },
+        "incidents": {
+            "layout": null,
+            "selectPrimaryFilterName": null
+        },
+        "cIncidents": {
+            "layout": null,
+            "selectPrimaryFilterName": null
+        },
+        "account1": {
+            "layout": null,
+            "selectPrimaryFilterName": null
+        }
+    }
+}

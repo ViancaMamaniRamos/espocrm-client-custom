@@ -1,0 +1,115 @@
+[
+    {
+        "rows": [
+            [
+                {
+                    "name": "name"
+                },
+                false
+            ],
+            [
+                {
+                    "name": "amount"
+                },
+                false
+            ],
+            [
+                {
+                    "name": "account"
+                },
+                {
+                    "name": "contacts"
+                }
+            ],
+            [
+                {
+                    "name": "description"
+                },
+                {
+                    "name": "closeDate"
+                }
+            ],
+            [
+                {
+                    "name": "opportunityProbability"
+                },
+                false
+            ]
+        ],
+        "style": "default",
+        "noteStyle": "info",
+        "label": ""
+    },
+    {
+        "rows": [
+            [
+                {
+                    "name": "balance"
+                },
+                {
+                    "name": "totalInvoiced"
+                }
+            ],
+            [
+                {
+                    "name": "amountPaid"
+                },
+                false
+            ]
+        ],
+        "dynamicLogicVisible": null,
+        "style": "default",
+        "dynamicLogicStyled": null,
+        "tabBreak": true,
+        "tabLabel": "Contabilidad",
+        "hidden": false,
+        "noteText": null,
+        "customLabel": "Financiero"
+    },
+    {
+        "rows": [
+            [
+                {
+                    "name": "equipmentLocation"
+                },
+                {
+                    "name": "etaDate"
+                }
+            ],
+            [
+                {
+                    "name": "trackingNumber"
+                },
+                false
+            ]
+        ],
+        "dynamicLogicVisible": null,
+        "style": "default",
+        "tabBreak": false,
+        "tabLabel": null,
+        "hidden": false,
+        "noteText": null,
+        "noteStyle": "info",
+        "customLabel": "Logitsica"
+    },
+    {
+        "rows": [
+            [
+                {
+                    "name": "postSaleStatus"
+                },
+                {
+                    "name": "notes"
+                }
+            ]
+        ],
+        "dynamicLogicVisible": null,
+        "style": "default",
+        "tabBreak": false,
+        "tabLabel": null,
+        "hidden": false,
+        "noteText": null,
+        "noteStyle": "info",
+        "customLabel": "seguimiento"
+    }
+]

@@ -1,0 +1,35 @@
+{
+    "fields": {
+        "cPostSale": {
+            "type": "link"
+        },
+        "cContact1": {
+            "type": "link"
+        },
+        "cOppyCode": {
+            "type": "varchar",
+            "maxLength": 100,
+            "options": [],
+            "isCustom": true
+        },
+        "account": {
+            "required": true
+        }
+    },
+    "links": {
+        "cPostSale": {
+            "type": "belongsTo",
+            "foreign": "opportunities",
+            "entity": "CPostSale",
+            "audited": false,
+            "isCustom": true
+        },
+        "cContact1": {
+            "type": "belongsTo",
+            "foreign": "cOpportunities1",
+            "entity": "Contact",
+            "audited": false,
+            "isCustom": true
+        }
+    }
+}

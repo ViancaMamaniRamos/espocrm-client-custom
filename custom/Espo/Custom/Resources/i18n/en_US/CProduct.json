@@ -1,0 +1,13 @@
+{
+    "fields": {
+        "priece": "Precio",
+        "prieceCurrency": "Precio (Currency)",
+        "prieceConverted": "Precio (Converted)",
+        "stock": "Stock",
+        "category": "Categoria"
+    },
+    "links": [],
+    "labels": {
+        "Create CProduct": "Create Producto"
+    }
+}

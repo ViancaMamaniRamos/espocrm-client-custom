@@ -1,0 +1,3 @@
+{
+    "beforeSaveCustomScript": "if (\n    status == 'Completed'\n    && entity\\isAttributeChanged('status')\n    && parentType == 'CIncident'\n    && name == 'TASK FALSO POSITIVO TEST'\n) {\n    \n    $actions = record\\attribute(parentType, parentId, 'actionsTaken');\n\n    if (array\\includes($actions, 'Sospecha de falso positivo')) {\n\n        $index = array\\indexOf($actions, 'Sospecha de falso positivo');\n        $actions = array\\removeAt($actions, $index);\n\n    }\n\n    $actions = array\\push($actions, 'Falso positivo');\n\n    record\\update(\n        parentType,\n        parentId,\n        'status', 'Resuelto',\n        'actionsTaken', $actions\n    );\n\n}"
+}

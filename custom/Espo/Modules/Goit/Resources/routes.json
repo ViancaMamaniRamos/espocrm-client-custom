@@ -1,0 +1,26 @@
+[
+  {
+    "route": "/CreateCall",
+    "method": "post",
+    "actionClassName": "Espo\\Modules\\Goit\\Api\\CreateCall",
+    "noAuth": true
+  },
+  {
+    "route": "/PostUserLogin",
+    "method": "post",
+    "actionClassName": "Espo\\Modules\\Goit\\Api\\PostUserLogin",
+    "noAuth": true
+  },
+  {
+    "route": "/PostUserActivation",
+    "method": "post",
+    "actionClassName": "Espo\\Modules\\Goit\\Api\\PostUserActivation",
+    "noAuth": true
+  },
+  {
+    "route": "/PostHistorial",
+    "method": "post",
+    "actionClassName": "Espo\\Modules\\Goit\\Api\\PostHistorial",
+    "noAuth": true
+  }
+]

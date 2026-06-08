@@ -1,0 +1,38 @@
+[
+    {
+        "rows": [
+            [
+                {
+                    "name": "name"
+                },
+                {
+                    "name": "emailAddress"
+                }
+            ],
+            [
+                {
+                    "name": "phoneNumber"
+                },
+                {
+                    "name": "cContactStatus"
+                }
+            ],
+            [
+                {
+                    "name": "description"
+                },
+                {
+                    "name": "cContacsProblem"
+                }
+            ],
+            [
+                {
+                    "name": "accounts"
+                },
+                false
+            ]
+        ],
+        "style": "default",
+        "label": ""
+    }
+]

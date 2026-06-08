@@ -1,0 +1,8 @@
+*
+!client/
+!client/**
+
+!custom/
+!custom/**
+
+!.gitignore

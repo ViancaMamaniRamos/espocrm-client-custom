@@ -1,0 +1,65 @@
+{
+    "links": {
+        "cPostSales": {
+            "type": "hasMany",
+            "relationName": "cPostSaleContact",
+            "foreign": "contacts",
+            "entity": "CPostSale",
+            "audited": false,
+            "isCustom": true
+        },
+        "cOpportunities1": {
+            "type": "hasMany",
+            "foreign": "cContact1",
+            "entity": "Opportunity",
+            "audited": false,
+            "isCustom": true
+        },
+        "cIncidents": {
+            "type": "hasMany",
+            "relationName": "cIncidentContact",
+            "foreign": "contacts",
+            "entity": "CIncident",
+            "audited": false,
+            "isCustom": true
+        },
+        "cAccount1": {
+            "type": "belongsTo",
+            "foreign": "cContacts1",
+            "entity": "Account",
+            "audited": false,
+            "isCustom": true
+        }
+    },
+    "fields": {
+        "cContactStatus": {
+            "type": "enum",
+            "options": [
+                "",
+                "ocupado",
+                "desocupado"
+            ],
+            "style": {
+                "": null,
+                "ocupado": "success",
+                "desocupado": "danger"
+            },
+            "maxLength": 100,
+            "isCustom": true,
+            "labelType": "state",
+            "displayAsLabel": true,
+            "audited": true
+        },
+        "cContacsProblem": {
+            "notNull": true,
+            "type": "bool",
+            "isCustom": true
+        },
+        "emailAddress": {
+            "required": true
+        },
+        "cAccount1": {
+            "type": "link"
+        }
+    }
+}

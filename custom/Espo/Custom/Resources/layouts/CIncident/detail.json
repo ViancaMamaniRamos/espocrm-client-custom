@@ -1,0 +1,167 @@
+[
+    {
+        "rows": [
+            [
+                {
+                    "name": "name"
+                },
+                {
+                    "name": "account"
+                }
+            ],
+            [
+                {
+                    "name": "status"
+                },
+                false
+            ]
+        ],
+        "style": "default",
+        "label": "Overview"
+    },
+    {
+        "rows": [
+            [
+                {
+                    "name": "createCase"
+                },
+                {
+                    "name": "bySystem"
+                },
+                {
+                    "name": "urgent"
+                }
+            ],
+            [
+                {
+                    "name": "detectedBy"
+                },
+                {
+                    "name": "actionsTaken"
+                }
+            ],
+            [
+                {
+                    "name": "description"
+                }
+            ]
+        ],
+        "style": "default",
+        "noteStyle": "info",
+        "label": ""
+    },
+    {
+        "rows": [
+            [
+                {
+                    "name": "cortexUserName"
+                },
+                {
+                    "name": "fileName"
+                }
+            ],
+            [
+                {
+                    "name": "md5"
+                },
+                false
+            ]
+        ],
+        "dynamicLogicVisible": {
+            "conditionGroup": [
+                {
+                    "type": "equals",
+                    "attribute": "detectedBy",
+                    "value": "cortex"
+                },
+                {
+                    "type": "isFalse",
+                    "attribute": "bySystem"
+                }
+            ]
+        },
+        "style": "default",
+        "tabBreak": true,
+        "tabLabel": "Cortex",
+        "hidden": false,
+        "noteText": null,
+        "noteStyle": "info",
+        "customLabel": "cortex"
+    },
+    {
+        "rows": [
+            [
+                {
+                    "name": "firewallSource"
+                },
+                {
+                    "name": "firewallDestination"
+                }
+            ],
+            [
+                {
+                    "name": "threat"
+                },
+                false
+            ]
+        ],
+        "dynamicLogicVisible": {
+            "conditionGroup": [
+                {
+                    "type": "equals",
+                    "attribute": "detectedBy",
+                    "value": "firewall"
+                },
+                {
+                    "type": "isFalse",
+                    "attribute": "bySystem"
+                }
+            ]
+        },
+        "style": "default",
+        "tabBreak": true,
+        "tabLabel": "Firewall",
+        "hidden": false,
+        "noteText": null,
+        "noteStyle": "info",
+        "customLabel": "Firewall"
+    },
+    {
+        "rows": [
+            [
+                {
+                    "name": "domain"
+                },
+                {
+                    "name": "mailSource"
+                }
+            ],
+            [
+                {
+                    "name": "mailDestination"
+                },
+                false
+            ]
+        ],
+        "dynamicLogicVisible": {
+            "conditionGroup": [
+                {
+                    "type": "equals",
+                    "attribute": "detectedBy",
+                    "value": "mail"
+                },
+                {
+                    "type": "isFalse",
+                    "attribute": "bySystem"
+                }
+            ]
+        },
+        "style": "default",
+        "tabBreak": true,
+        "tabLabel": "Mail",
+        "hidden": false,
+        "noteText": null,
+        "noteStyle": "info",
+        "customLabel": "Mail"
+    }
+]

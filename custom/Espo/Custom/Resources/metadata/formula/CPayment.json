@@ -1,0 +1,3 @@
+{
+    "beforeSaveCustomScript": "if (postSaleId) {\r\n\r\n    $total = record\\sumRelated('Payment', postSaleId, 'postSale', 'amount');\r\n\r\n    record\\update(\r\n        'CPostSale',\r\n        postSaleId,\r\n        'amountPaid', $total\r\n    );\r\n\r\n}"
+}

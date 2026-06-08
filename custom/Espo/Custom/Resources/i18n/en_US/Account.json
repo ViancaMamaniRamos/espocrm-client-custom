@@ -1,0 +1,29 @@
+{
+    "fields": {
+        "cPostSales": "Post Sales",
+        "cIncidents": "Incidents",
+        "cClientStatus": "Estado del Cliente",
+        "cContactStatus": "Estado Contacto",
+        "cContacts1": "Contacts1"
+    },
+    "links": {
+        "cPostSales": "Post Sales",
+        "cIncidents": "Incidents",
+        "cContacts1": "Contacts1"
+    },
+    "options": {
+        "cClientStatus": {
+            "muerto": "muerto",
+            "riesgo": "riesgo",
+            "sano": "sano",
+            "prospecto": "prospecto",
+            "": "",
+            "profundizar": "profundizar"
+        },
+        "cContactStatus": {
+            "": "",
+            "Ocupado": "Ocupado",
+            "Desocupado": "Desocupado"
+        }
+    }
+}

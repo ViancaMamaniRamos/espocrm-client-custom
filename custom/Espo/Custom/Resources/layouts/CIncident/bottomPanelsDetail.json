@@ -1,0 +1,18 @@
+{
+    "activities": {
+        "disabled": true
+    },
+    "history": {
+        "disabled": true
+    },
+    "_delimiter_": {
+        "disabled": true
+    },
+    "stream": {
+        "sticked": false,
+        "index": 0
+    },
+    "contacts": {
+        "index": 1
+    }
+}

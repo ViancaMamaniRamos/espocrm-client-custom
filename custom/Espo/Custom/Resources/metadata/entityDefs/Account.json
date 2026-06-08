@@ -1,0 +1,67 @@
+{
+    "links": {
+        "cPostSales": {
+            "type": "hasMany",
+            "foreign": "account",
+            "entity": "CPostSale",
+            "audited": false,
+            "isCustom": true
+        },
+        "cIncidents": {
+            "type": "hasMany",
+            "foreign": "account",
+            "entity": "CIncident",
+            "audited": false,
+            "isCustom": true
+        },
+        "cContacts1": {
+            "type": "hasMany",
+            "foreign": "cAccount1",
+            "entity": "Contact",
+            "audited": false,
+            "isCustom": true
+        }
+    },
+    "fields": {
+        "cClientStatus": {
+            "type": "enum",
+            "options": [
+                "",
+                "muerto",
+                "riesgo",
+                "sano",
+                "profundizar"
+            ],
+            "style": {
+                "": null,
+                "muerto": "danger",
+                "riesgo": "warning",
+                "sano": "primary",
+                "profundizar": "info"
+            },
+            "default": null,
+            "maxLength": 100,
+            "isCustom": true,
+            "displayAsLabel": true,
+            "audited": true
+        },
+        "cContactStatus": {
+            "type": "enum",
+            "options": [
+                "",
+                "Ocupado",
+                "Desocupado"
+            ],
+            "style": {
+                "": null,
+                "Ocupado": null,
+                "Desocupado": null
+            },
+            "maxLength": 100,
+            "isCustom": true
+        },
+        "cContacts1": {
+            "type": "linkMultiple"
+        }
+    }
+}

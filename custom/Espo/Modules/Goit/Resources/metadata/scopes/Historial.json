@@ -1,0 +1,13 @@
+{
+    "entity": true,
+    "layouts": true,
+    "tab": false,
+    "acl": true,
+    "customizable": true,
+    "stream": false,
+    "disabled": false,
+    "type": "Base",
+    "module": "Goit",
+    "object": true,
+    "isCustom": true
+}

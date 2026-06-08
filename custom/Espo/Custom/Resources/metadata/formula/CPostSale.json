@@ -1,0 +1,3 @@
+{
+    "beforeSaveCustomScript": "amountPaid = record\\sumRelated('payments', 'amount');\r\n\r\nif (!amountPaid) {\r\n    amountPaid = 0;\r\n}\r\n\r\nbalance = amount - amountPaid;"
+}

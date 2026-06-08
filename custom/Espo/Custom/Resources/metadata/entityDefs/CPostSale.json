@@ -1,0 +1,194 @@
+{
+    "fields": {
+        "name": {
+            "type": "varchar",
+            "required": true,
+            "pattern": "$noBadCharacters"
+        },
+        "description": {
+            "type": "text"
+        },
+        "createdAt": {
+            "type": "datetime",
+            "readOnly": true
+        },
+        "modifiedAt": {
+            "type": "datetime",
+            "readOnly": true
+        },
+        "createdBy": {
+            "type": "link",
+            "readOnly": true,
+            "view": "views/fields/user"
+        },
+        "modifiedBy": {
+            "type": "link",
+            "readOnly": true,
+            "view": "views/fields/user"
+        },
+        "assignedUser": {
+            "type": "link",
+            "required": false,
+            "view": "views/fields/assigned-user"
+        },
+        "teams": {
+            "type": "linkMultiple",
+            "view": "views/fields/teams"
+        },
+        "totalInvoiced": {
+            "type": "currency",
+            "isCustom": true
+        },
+        "amountPaid": {
+            "type": "currency",
+            "isCustom": true
+        },
+        "balance": {
+            "type": "currency",
+            "isCustom": true
+        },
+        "equipmentLocation": {
+            "type": "enum",
+            "style": {
+                "aduana": null,
+                "aeropuerto": null,
+                "almacen": null,
+                "entregado": null
+            },
+            "maxLength": 100,
+            "isCustom": true,
+            "options": [
+                "aduana",
+                "aeropuerto",
+                "almacen",
+                "entregado"
+            ],
+            "default": "aduana"
+        },
+        "etaDate": {
+            "notNull": false,
+            "type": "date",
+            "isCustom": true
+        },
+        "postSaleStatus": {
+            "type": "enum",
+            "options": [
+                "pendiente",
+                "pagado",
+                "cerrado"
+            ],
+            "default": "pendiente",
+            "style": {
+                "pendiente": null,
+                "pagado": null,
+                "cerrado": null
+            },
+            "maxLength": 100,
+            "isCustom": true
+        },
+        "notes": {
+            "type": "text",
+            "rowsMin": 2,
+            "cutHeight": 200,
+            "isCustom": true
+        },
+        "account": {
+            "type": "link"
+        },
+        "amount": {
+            "type": "currency",
+            "readOnly": false,
+            "isCustom": true
+        },
+        "trackingNumber": {
+            "type": "text",
+            "rowsMin": 2,
+            "cutHeight": 200,
+            "isCustom": true
+        },
+        "opportunityProbability": {
+            "type": "int",
+            "isCustom": true
+        },
+        "closeDate": {
+            "notNull": false,
+            "type": "date",
+            "isCustom": true
+        },
+        "contacts": {
+            "type": "linkMultiple"
+        }
+    },
+    "links": {
+        "createdBy": {
+            "type": "belongsTo",
+            "entity": "User"
+        },
+        "modifiedBy": {
+            "type": "belongsTo",
+            "entity": "User"
+        },
+        "assignedUser": {
+            "type": "belongsTo",
+            "entity": "User"
+        },
+        "teams": {
+            "type": "hasMany",
+            "entity": "Team",
+            "relationName": "entityTeam",
+            "layoutRelationshipsDisabled": true
+        },
+        "account": {
+            "type": "belongsTo",
+            "foreign": "cPostSales",
+            "entity": "Account",
+            "audited": false,
+            "isCustom": true
+        },
+        "contacts": {
+            "type": "hasMany",
+            "relationName": "cPostSaleContact",
+            "foreign": "cPostSales",
+            "entity": "Contact",
+            "audited": false,
+            "isCustom": true
+        },
+        "opportunities": {
+            "type": "hasMany",
+            "foreign": "cPostSale",
+            "entity": "Opportunity",
+            "audited": false,
+            "isCustom": true
+        }
+    },
+    "collection": {
+        "orderBy": "createdAt",
+        "order": "desc"
+    },
+    "indexes": {
+        "name": {
+            "columns": [
+                "name",
+                "deleted"
+            ]
+        },
+        "assignedUser": {
+            "columns": [
+                "assignedUserId",
+                "deleted"
+            ]
+        },
+        "createdAt": {
+            "columns": [
+                "createdAt"
+            ]
+        },
+        "createdAtId": {
+            "unique": true,
+            "columns": [
+                "createdAt",
+                "id"
+            ]
+        }
+    }
+}

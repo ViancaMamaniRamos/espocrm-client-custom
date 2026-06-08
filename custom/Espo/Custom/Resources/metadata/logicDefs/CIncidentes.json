@@ -1,0 +1,154 @@
+{
+    "fields": {
+        "md5": {
+            "visible": {
+                "conditionGroup": [
+                    {
+                        "type": "equals",
+                        "attribute": "detectedBy",
+                        "value": "Cortex"
+                    },
+                    {
+                        "type": "isFalse",
+                        "attribute": "bySystem"
+                    }
+                ]
+            }
+        },
+        "fileName": {
+            "visible": {
+                "conditionGroup": [
+                    {
+                        "type": "equals",
+                        "attribute": "detectedBy",
+                        "value": "Cortex"
+                    },
+                    {
+                        "type": "isFalse",
+                        "attribute": "bySystem"
+                    }
+                ]
+            }
+        },
+        "cortexUserName": {
+            "visible": {
+                "conditionGroup": [
+                    {
+                        "type": "equals",
+                        "attribute": "detectedBy",
+                        "value": "Cortex"
+                    },
+                    {
+                        "type": "isFalse",
+                        "attribute": "bySystem"
+                    }
+                ]
+            }
+        },
+        "firewallDestination": {
+            "visible": {
+                "conditionGroup": [
+                    {
+                        "type": "equals",
+                        "attribute": "detectedBy",
+                        "value": "Firewall"
+                    },
+                    {
+                        "type": "isFalse",
+                        "attribute": "bySystem"
+                    }
+                ]
+            }
+        },
+        "firewallSource": {
+            "visible": {
+                "conditionGroup": [
+                    {
+                        "type": "equals",
+                        "attribute": "detectedBy",
+                        "value": "Firewall"
+                    },
+                    {
+                        "type": "isFalse",
+                        "attribute": "bySystem"
+                    }
+                ]
+            }
+        },
+        "threat": {
+            "visible": {
+                "conditionGroup": [
+                    {
+                        "type": "equals",
+                        "attribute": "detectedBy",
+                        "value": "Firewall"
+                    },
+                    {
+                        "type": "isFalse",
+                        "attribute": "bySystem"
+                    }
+                ]
+            }
+        },
+        "mailSource": {
+            "visible": {
+                "conditionGroup": [
+                    {
+                        "type": "equals",
+                        "attribute": "detectedBy",
+                        "value": "Mail"
+                    },
+                    {
+                        "type": "isFalse",
+                        "attribute": "bySystem"
+                    }
+                ]
+            }
+        },
+        "mailDestination": {
+            "visible": {
+                "conditionGroup": [
+                    {
+                        "type": "equals",
+                        "attribute": "detectedBy",
+                        "value": "Mail"
+                    },
+                    {
+                        "type": "isFalse",
+                        "attribute": "bySystem"
+                    }
+                ]
+            }
+        },
+        "domain": {
+            "visible": {
+                "conditionGroup": [
+                    {
+                        "type": "equals",
+                        "attribute": "detectedBy",
+                        "value": "Mail"
+                    },
+                    {
+                        "type": "isFalse",
+                        "attribute": "bySystem"
+                    }
+                ]
+            }
+        },
+        "detectedBy": {
+            "visible": {
+                "conditionGroup": [
+                    {
+                        "type": "equals",
+                        "attribute": "detectedBy",
+                        "value": "Cortex"
+                    },
+                    {
+                        "type": "isFalse",
+                        "attribute": "bySystem"
+                    }
+                ]
+            }
+        }
+    }
+}

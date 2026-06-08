@@ -1,0 +1,7 @@
+{
+    "massActions": {
+        "printByStagePdf": {
+            "implementationClassName": "Espo\\Modules\\Goit\\Classes\\MassAction\\Opportunity\\PrintByStagePdf"
+        }
+    }
+}

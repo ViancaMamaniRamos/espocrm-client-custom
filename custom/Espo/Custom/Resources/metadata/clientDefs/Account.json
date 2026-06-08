@@ -1,0 +1,24 @@
+{
+    "relationshipPanels": {
+        "postSales": {
+            "layout": null,
+            "selectPrimaryFilterName": null
+        },
+        "opportunity": {
+            "layout": null,
+            "selectPrimaryFilterName": null
+        },
+        "incidenteses": {
+            "layout": null,
+            "selectPrimaryFilterName": null
+        },
+        "incidents": {
+            "layout": null,
+            "selectPrimaryFilterName": null
+        },
+        "contacts1": {
+            "layout": null,
+            "selectPrimaryFilterName": null
+        }
+    }
+}

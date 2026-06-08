@@ -1,0 +1,27 @@
+[
+    {
+        "name": "name",
+        "link": true
+    },
+    {
+        "name": "account",
+        "width": 16
+    },
+    {
+        "name": "status",
+        "width": 16
+    },
+    {
+        "name": "actionsTaken",
+        "width": 16,
+        "notSortable": true
+    },
+    {
+        "name": "detectedBy",
+        "width": 16
+    },
+    {
+        "name": "description",
+        "width": 16
+    }
+]

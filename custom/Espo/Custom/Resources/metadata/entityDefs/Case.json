@@ -1,0 +1,7 @@
+{
+    "fields": {
+        "contact": {
+            "required": false
+        }
+    }
+}

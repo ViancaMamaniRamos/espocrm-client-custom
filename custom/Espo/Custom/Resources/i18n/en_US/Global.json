@@ -1,0 +1,18 @@
+{
+    "scopeNames": {
+        "CPostSale": "Post Venta",
+        "CIncident": "Incidente",
+        "CPrueba": "Prueba",
+        "CPruebaPlus": "PruebaPlus",
+        "CProduct": "Producto",
+        "CInventory": "Inventario"
+    },
+    "scopeNamesPlural": {
+        "CPostSale": "Post Ventas",
+        "CIncident": "Incidentes",
+        "CPrueba": "Pruebas",
+        "CPruebaPlus": "PruebaPluses",
+        "CProduct": "Productos",
+        "CInventory": "Inventarios"
+    }
+}

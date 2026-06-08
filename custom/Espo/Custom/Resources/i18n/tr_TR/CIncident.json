@@ -1,0 +1,10 @@
+{
+  "links": {
+    "meetings": "Toplantılar",
+    "calls": "(Seslenme)",
+    "tasks": "Görevler"
+  },
+  "labels": {
+    "Create CIncident": "Incidente oluştur"
+  }
+}

@@ -1,0 +1,12 @@
+{
+    "massActionList": [
+        "__APPEND__",
+        "printByStagePdf"
+    ],
+    "massActionDefs": {
+        "printByStagePdf": {
+            "handler": "custom:goit-opportunity-print-pdf",
+            "actionFunction": "printByStagePdf"
+        }
+    }
+}

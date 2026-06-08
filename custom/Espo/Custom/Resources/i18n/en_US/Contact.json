@@ -1,0 +1,23 @@
+{
+    "fields": {
+        "cPostSales": "Post Sales",
+        "cOpportunities1": "Opportunities1",
+        "cIncidents": "Incidents",
+        "cContactStatus": "Estado",
+        "cContacsProblem": "Contacto con problemas",
+        "cAccount1": "Account1"
+    },
+    "links": {
+        "cPostSales": "Post Sales",
+        "cOpportunities1": "Opportunities1",
+        "cIncidents": "Incidents",
+        "cAccount1": "Account1"
+    },
+    "options": {
+        "cContactStatus": {
+            "": "",
+            "ocupado": "ocupado",
+            "desocupado": "desocupado"
+        }
+    }
+}

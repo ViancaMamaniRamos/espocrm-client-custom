@@ -1,0 +1,53 @@
+{
+    "fields": {
+        "status": "Estado",
+        "detectedBy": "Detectado por",
+        "bySystem": "Por Sistema",
+        "urgent": "Urgente",
+        "actionsTaken": "Acciones Tomadas",
+        "account": "Account",
+        "contacts": "Contacts",
+        "cortexUserName": "UserName",
+        "md5": "Md5",
+        "fileName": "Nombre de Archivo",
+        "threat": "Amenaza",
+        "firewallSource": "Origen Firewall",
+        "firewallDestination": "Destino Firewall",
+        "domain": "Dominio",
+        "mailSource": "Origen Mail",
+        "mailDestination": "Destino Mail",
+        "createCase": "Crear Caso"
+    },
+    "links": {
+        "meetings": "Meetings",
+        "calls": "Calls",
+        "tasks": "Tasks",
+        "account": "Account",
+        "contacts": "Contacts"
+    },
+    "labels": {
+        "Create CIncident": "Create Incidente"
+    },
+    "options": {
+        "status": {
+            "": "",
+            "Identificado": "Identificado",
+            "Investigando": "Investigando",
+            "Resuelto": "Resuelto"
+        },
+        "detectedBy": {
+            "": "",
+            "cortex": "cortex",
+            "firewall": "firewall",
+            "mail": "mail"
+        },
+        "actionsTaken": {
+            "": "",
+            "Desconexión de equipo": "Desconexión de equipo",
+            "Sospecha de falso positivo": "Sospecha de falso positivo",
+            "Reinicio de Equipo": "Reinicio de Equipo",
+            "Atacante agregado a IoC": "Atacante agregado a IoC",
+            "Falso Positivo": "Falso Positivo"
+        }
+    }
+}

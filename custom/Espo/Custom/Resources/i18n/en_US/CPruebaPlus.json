@@ -1,0 +1,13 @@
+{
+    "fields": {
+        "note": "Nota"
+    },
+    "links": {
+        "meetings": "Meetings",
+        "calls": "Calls",
+        "tasks": "Tasks"
+    },
+    "labels": {
+        "Create CPruebaPlus": "Create PruebaPlus"
+    }
+}

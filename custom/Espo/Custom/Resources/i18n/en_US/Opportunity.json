@@ -1,0 +1,11 @@
+{
+    "fields": {
+        "cPostSale": "Post Sale",
+        "cContact1": "Contact1",
+        "cOppyCode": "OppyCode"
+    },
+    "links": {
+        "cPostSale": "Post Sale",
+        "cContact1": "Contact1"
+    }
+}

@@ -1,0 +1,47 @@
+{
+    "fields": {
+        "totalInvoiced": "Total Facturado",
+        "totalInvoicedCurrency": "Total Facturado (Currency)",
+        "totalInvoicedConverted": "Total Facturado (Converted)",
+        "amountPaid": "Monto Pagado",
+        "amountPaidCurrency": "Monto Pagado (Currency)",
+        "amountPaidConverted": "Monto Pagado (Converted)",
+        "balance": "Saldo Pendiente",
+        "balanceCurrency": "Saldo Pendiente (Currency)",
+        "balanceConverted": "Saldo Pendiente (Converted)",
+        "equipmentLocation": "Ubicacion Equipo",
+        "etaDate": "fecha llegada",
+        "postSaleStatus": "estado venta",
+        "notes": "Notas",
+        "account": "Account",
+        "amount": "cantidad",
+        "amountCurrency": "cantidad (Currency)",
+        "amountConverted": "cantidad (Converted)",
+        "contacts": "Contacts",
+        "opportunities": "Opportunities",
+        "trackingNumber": "Numero Guia",
+        "opportunityProbability": "Probabilidad",
+        "closeDate": "CloseDate"
+    },
+    "links": {
+        "account": "Account",
+        "contacts": "Contacts",
+        "opportunities": "Opportunities"
+    },
+    "labels": {
+        "Create CPostSale": "Create Post Venta"
+    },
+    "options": {
+        "equipmentLocation": {
+            "aduana": "aduana",
+            "aeropuerto": "aeropuerto",
+            "almacen": "almacen",
+            "entregado": "entregado"
+        },
+        "postSaleStatus": {
+            "pendiente": "pendiente",
+            "pagado": "pagado",
+            "cerrado": "cerrado"
+        }
+    }
+}

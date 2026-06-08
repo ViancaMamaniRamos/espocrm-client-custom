@@ -1,0 +1,20 @@
+{
+    "relationshipPanels": {
+        "postSale": {
+            "layout": null,
+            "selectPrimaryFilterName": null
+        },
+        "postSales": {
+            "layout": null,
+            "selectPrimaryFilterName": null
+        },
+        "accounts": {
+            "layout": null,
+            "selectPrimaryFilterName": null
+        },
+        "contact1": {
+            "layout": null,
+            "selectPrimaryFilterName": null
+        }
+    }
+}

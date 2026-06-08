@@ -1,0 +1,24 @@
+[
+    {
+        "rows": [
+            [
+                {
+                    "name": "name"
+                },
+                {
+                    "name": "priece"
+                }
+            ],
+            [
+                {
+                    "name": "category"
+                },
+                {
+                    "name": "stock"
+                }
+            ]
+        ],
+        "style": "default",
+        "label": "Overview"
+    }
+]

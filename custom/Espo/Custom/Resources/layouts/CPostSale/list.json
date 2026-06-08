@@ -1,0 +1,51 @@
+[
+    {
+        "name": "name",
+        "link": true
+    },
+    {
+        "name": "contact",
+        "width": 16
+    },
+    {
+        "name": "account",
+        "width": 16
+    },
+    {
+        "name": "etaDate",
+        "width": 16
+    },
+    {
+        "name": "balance",
+        "width": 16
+    },
+    {
+        "name": "teams",
+        "width": 16,
+        "notSortable": true
+    },
+    {
+        "name": "trackingNumber",
+        "width": 16
+    },
+    {
+        "name": "totalInvoiced",
+        "width": 16
+    },
+    {
+        "name": "notes",
+        "width": 16
+    },
+    {
+        "name": "postSaleStatus",
+        "width": 16
+    },
+    {
+        "name": "equipmentLocation",
+        "width": 16
+    },
+    {
+        "name": "amountPaid",
+        "width": 16
+    }
+]
