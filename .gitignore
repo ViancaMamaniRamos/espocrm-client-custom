@@ -6,3 +6,7 @@
 !custom/**
 
 !.gitignore
+
+!.github/
+!.github/workflows/
+!.github/workflows/opencode.yml
